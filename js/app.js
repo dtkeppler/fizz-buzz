@@ -1,14 +1,14 @@
 for (var fizzBuzz = 1; fizzBuzz <= 100; fizzBuzz++) {
 	if (fizzBuzz % 5 === 0 && fizzBuzz % 3 === 0) {
-		console.log("Fizz Buzz");
+		document.write("Fizz Buzz" + ", ");
 	}
 	else if (fizzBuzz % 5 === 0) {
-		console.log("Buzz");
+		document.write("Buzz" + ", ");
 	}
 	else if (fizzBuzz % 3 === 0) {
-		console.log("Fizz");
+		document.write("Fizz" + ", ");
 	}
 	else {
-		console.log(fizzBuzz);
+		document.write(fizzBuzz + ", ");
 	}
 }
